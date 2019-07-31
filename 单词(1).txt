@@ -1,0 +1,166 @@
+onclick            克力克
+ondblclick       dbl克力克
+onmouseover  貌似欧沃
+onmouseout    冒失奥特
+onfocus      否克斯
+onblur        布勒而
+windows     瘟都死
+get             干特
+value          挽留
+className  克拉斯内么
+document   党课蒙特
+onload        露的
+script          四款布特
+ready go     软得
+
+html   超文本标记语言
+head  头部     汉德
+body  身体     邦的而
+footer  尾部    否特而
+nav     导航     南卧
+title    标题     抬头
+meta  引用    米特
+utf-8    国际编码
+gb2312   国家编码
+css      层叠式样式
+js       脚本/交互    全程javascript  
+type   类型        泰普
+typeof  检测数据类型            泰普欧福
+logo   标志              楼??
+content   主体           康腾特
+index    首页/索引值       应得克斯
+list       列表     利斯特
+reset    公共的    瑞散特
+style   样式   思代偶
+alert   警示框   a勒特
+viewport  视口（可视窗口）    为庞特而
+
+width:宽度   
+height:高度 
+ul li无序列表 
+ol li有序列表
+H1-H6标题
+p段落
+input表单
+text：文本
+button:按钮
+checkbox：复选框 
+img：图片   images图片集
+div ：容器
+span  b  u  i 小标签
+br换行
+&nbsp；空格
+table表格  tr行  td列
+border:边框  
+solid：实线 
+border-collapse:边框合并
+font:字体
+size:大小
+center：居中
+left:左
+right：右
+bottom:下
+margin:外边距
+color:前景色
+background:背景色
+red  blue  orange  black  红 蓝 橘 黑
+target="_blank"  打开方式（新窗口）
+a超链接
+
+line-height行高
+float: left;浮动：左/右
+为什么要用浮动：因为我们所写的内容都是上下结构，只要向横向显示时：就用浮动
+定义：浮动的元素会脱离文档流，后边的元素会跟上来
+解决方式：1:clear: both;清除：所有（隔断墙）   2： 给浮动的元素的父级添加固定的高度  3:给不需要浮动的元素添加clear:both  4:给浮动的元素的父级添加overflow: hidden;
+list-style: none;列表样式：无
+background: orange;背景色
+margin: 0  10px;外边距：上下0  左右10px
+
+1：分析版心（1100px）
+2:  设置css   将所有的标签的默认样式清空padding  和  margin  
+3:  设置不同的类名来控制样式
+定位：
+
+绝对定位的使用：子绝父相
+position: relative;相对定位    放到子集上
+position: absolute;绝对定位   放到父级上
+
+
+标签的分类：俩类   单标签和双标签
+标签属性分类：俩种    行内标签  和  块级标签
+		块级标签：自己独占一行   p   div   ul  li  dl  dt  dd  （容器，布局用的）
+		行内标签：反之    span   b   u  i   a   lable  img     (小标签里放入的是内容，不能当作一个容器使用)
+		特殊：input表单元素
+
+内边距和外边距：
+padding: 内边距，是往内挤压的   通常用在父级上
+margin： 外边距  是同级之间使用   例如 li 标签之间的间距      盒子居中：margin: 0 auto;   表示：这个盒子上下外边距为0   左右自动计算
+层叠式样式：css   相同的样式后写的权重一定大于之前的
+
+
+盒模型：margin   border   padding   width   height
+所有的标签都有盒模型：我们写样式时，调错用的
+
+
+标签：假设用了一堆的span
+      	 将行内标签转为块级标签：display: block; 
+	将块级标签转换为行内标签：display: inline-block;
+position: relative;相对定位：  定位的参照物时自己，自己的当前位置，  有俩个方向：分别是上 左     上 右      下 左      下 右   例如：常用于图片，小元素的微调整
+position: fixed;固定定位  参照物是浏览器，不会跟着浏览器页面的位置而改变  ：分别是上 左     上 右      下 左      下 右    例如：返回顶部的按钮，或者导航
+position: absolute;绝对定位  参照物是父级，加入父级没有定位，参照物是页面； 分别是上 左     上 右      下 左      下 右   例如：图片的位置，可以大范围的使用，前提是父级用了相对定位
+
+
+css：写法：行内的   内链的  外链的
+
+	行内的：只能控制一个标签，权重最高，
+	内链式：能控制一个页面，权重其次
+	外链式：能控制整个项目的页面，权重最低，但维护性较高
+	
+	样式：谁后写的谁的权重最高
+
+	选择器：   标签选择器   权重高，维护性差，不建议使用
+
+		类选择器   权重底，维护性高，可多次使用，可重复起名称  可以大量使用
+		class="my_o1 my_o2 my_odiv  my_o14  my_o18"
+
+		id选择器    权重最高，维护性差，不能多次使用，有可能是个动态的，不建议我们写样式
+		id="my_p"  id是唯一的，页面内的id名不可以重复   id通常是给js或者后端使用的
+
+		*选择器  选区页面内所有的标签的  通配选择器
+
+		后代选择器：例如：ul li{}
+		并集选择器：例如：p,div,.my_div,.my_p{}  通常默认样式回出现
+
+选择器权重的计算：   id=1吨   class=1斤   标签=1克；
+
+
+
+JS：
+getElementsByTagName
+fontSize字号大小
+textAlign文本对齐方式
+fontWeight="bold"文本加粗
+fontWeight="normal"文本还原	
+object对象
+document文档
+write写
+var  =变量的值	
+alert弹出警示框
+console.log()控制台打印
+\n对文字换行
+\紧跟着文字输出
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <link rel="stylesheet" type="text/css" href="DL.css" />
+
+</head>
+
+<body>
+    <div class="Quan">
+        <!--右边大图-->
+        <div class="body_img">
+            <img src="../../3.20_html/images/DengLu_02.png" />
+        </div>
+
+        <!--第一部分-->
+        <div class="body_one">
+            <img src="../../3.20_html/images/DengLu_04.png" />
+        </div>
+        <div class="body_two">
+            规则引擎
+        </div><br />
+
+        <!--第三部分-->
+        <div class="body_three">
+            登录
+        </div>
+
+        <!--第四部分-->
+        <div class="body_four"></div>
+
+        <!--第五部分-->
+        <!-- //验证账号密码：
+        //账号：1：必须是纯数字，2 不能有空格 3 不能有汉字
+        //密码：字母+数字+特殊符号组合，6-16位 -->
+        <div class="body_five">
+            账号：<span id="tishi">必须是纯数字,且要在6-12之间</span> <br />
+            <input type="text" id="username" placeholder="请输入用户名......" /><br>
+            <span id="zh"></span>
+        </div>
+
+        <!--第六部分-->
+        <div class="body_six">
+            密码：<span id="tishi">数字，大写字母，小写字母，特殊字符四选三，长度在6-16之间</span> <br />
+            <div class="mui-input-row mui-password">
+                <input type="password" id="password" placeholder="请输入密码......" /><br>
+                <span id="mm"></span>
+            </div>
+        </div>
+
+
+
+        <!--第八部分-->
+        <div class="body_eight">
+            <button id="denglu">登录</button>
+        </div>
+
+        <!--第九部分-->
+        <div class="body_nine">
+            <div class="body_a"></div>
+            <div class="body_b">&nbsp;&nbsp;第三方登录&nbsp;&nbsp;</div>
+            <div class="body_c"></div>
+        </div>
+
+        <!--第十部分-->
+        <div class="body_ten">
+            <div>
+                <a href=""><img src="../../3.20_html/images/DengLu_08.png" /></a>
+            </div>
+            <div>
+                <a href=""><img src="../../3.20_html/images/DengLu_10.png" /></a>
+            </div>
+            <div>
+                <a href=""><img src="../../3.20_html/images/DengLu_12.png" /></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    var denglu = document.getElementById("denglu");
+
+
+
+    denglu.onclick = function () {
+        // 账号
+        var user = document.getElementById("username").value;
+        // 账号错误提示
+        var zhc = document.getElementById("zh");
+        // 密码
+        var pasd = document.getElementById("password").value;
+        // 密码错误提示
+        var mmc = document.getElementById("mm");
+
+        var shuzi = /^\d{6,12}$/;
+        var mima = /^(?![a-zA-Z]+$)(?![A-Z0-9]+$)(?![A-Z\W_!@#$%^&*`~()-+=]+$)(?![a-z0-9]+$)(?![a-z\W_!@#$%^&*`~()-+=]+$)(?![0-9\W_!@#$%^&*`~()-+=]+$)[a-zA-Z0-9\W_!@#$%^&*`~()-+=]{6,16}$/;
+
+        for (var i = 0; i < 100; i++) {
+
+            // 账号检验
+            if (shuzi.test(user)) {
+                zhc.innerHTML = "";
+            } else {
+                zhc.innerHTML = "请按要求输入账号！";
+            }
+
+            // 密码检验
+            if (mima.test(pasd)) {
+                mmc.innerHTML = "";
+            } else {
+                mmc.innerHTML = "请按要求输入密码！";
+            }
+
+            if (shuzi.test(user) && mima.test(pasd)) {
+                console.log(user);
+                console.log(pasd);
+                alert("登录成功！")
+                window.location.href = '../../3.20_html/GaiLan.html';
+                break;
+            }
+        }
+
+    }
+
+
+</script>
+
+</html>

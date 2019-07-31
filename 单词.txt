@@ -1,0 +1,73 @@
+onclick            克力克
+ondblclick       dbl克力克
+onmouseover  貌似欧沃
+onmouseout    冒失奥特
+onfocus      否克斯
+onblur        布勒而
+windows     瘟都死
+get             干特
+value          挽留
+className  克拉斯内么
+document   党课蒙特
+onload        露的
+script          四款布特
+ready go     软得
+
+html   超文本标记语言
+head  头部     汉德
+body  身体     邦的而
+footer  尾部    否特而
+nav     导航     南卧
+title    标题     抬头
+meta  引用    米特
+utf-8    国际编码
+gb2312   国家编码
+css      层叠式样式
+js       脚本/交互    全程javascript  
+type   类型        泰普
+typeof  检测数据类型            泰普欧福
+logo   标志              楼??
+content   主体           康腾特
+index    首页/索引值       应得克斯
+list       列表     利斯特
+reset    公共的    瑞散特
+style   样式   思代偶
+alert   警示框   a勒特
+viewport  视口（可视窗口）    为庞特而
+
+width:宽度   
+height:高度 
+ul li无序列表 
+ol li有序列表
+H1-H6标题
+p段落
+input表单
+text：文本
+button:按钮
+checkbox：复选框 
+img：图片   images图片集
+div ：容器
+span  b  u  i 小标签
+br换行
+&nbsp；空格
+table表格  tr行  td列
+border:边框  
+solid：实线 
+border-collapse:边框合并
+font:字体
+size:大小
+center：居中
+left:左
+right：右
+bottom:下
+margin:外边距
+color:前景色
+background:背景色
+red  blue  orange  black  红 蓝 橘 黑
+target="_blank"  打开方式（新窗口）
+a超链接
+
+
+
+
+

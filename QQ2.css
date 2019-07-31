@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.div1{
+	width: 980px;
+	height: 439px;
+	margin: 0 auto;
+}
+.div1left{
+	float: left;
+	width: 376px;
+	height: 439px;
+}
+.div1left img{
+	width: 376px;
+	height: 439px;
+}
+.div1right{
+	width: 600px;
+	height: 437px;
+	/*background: palegoldenrod;*/
+	float: right;
+}
+.div1right h1{
+	font-size: 35px;
+	padding-left: 80px;
+	padding-top: 30px;
+}
+.div1right h2{
+	font-size: 20px;
+	padding-left: 80px;
+	padding-top: 10px;
+}
+.div1right h2 .aa{
+	float: right;
+	padding-right: 150px;
+}
+.my_p input{
+	width: 337px;
+	height: 37px;
+	color: #d2d6d9;
+}
+.my_p{
+	padding-left: 80px;
+	padding-top: 40px;
+}
+.my_p1 input{
+	width: 337px;
+	height: 37px;
+	color: #d2d6d9;
+}
+.my_p1{
+	padding-left: 80px;
+	padding-top: 20px;
+}
+.my_p2 .in01{
+	width:108px ;
+	height:36px ;
+}
+.my_p2 .in02{
+	width:215px ;
+	height:36px ;
+	margin-left: 10px;
+	color: #d2d6d9;
+}
+.my_p2{
+	padding-left: 80px;
+	padding-top: 20px;
+}
+.small{
+	padding-left: 80px;
+	color: #d2d6d9;
+}
+.my_btn{
+	padding: 10px 140px;
+	margin-left: 80px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	border-radius: 3px;
+	color: #fff;
+	background: #3588ff;
+}
+.my_p3{
+	padding-left: 80px;
+	padding-top: 20px;
+}

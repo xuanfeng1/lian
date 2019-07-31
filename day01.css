@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    background: #f5d8a0;
+    width: 944px;
+    height: 618px;
+    margin: 0 auto;
+}
+.header{
+    width: 983px;
+    height: 42px;
+}
+.header h3{
+    padding-top: 10px;
+    padding-left: 40px;  
+}
+.xian{
+    width: 910px;
+    height: 2px;
+   background: #9c4435;
+   margin: 0 auto;
+   padding-right: 10px;
+}
+.div2{
+    width: 886px;
+    height: 555px;
+    margin: 0 auto;
+    background: #dcb280;
+    text-align: center;
+}
+.myp1{
+    padding-top: 60px;
+}
+.myp1 input{
+    width: 284px;
+    height: 31px;
+    color: #dbdce0;
+}
+.myp2 input{
+    width: 284px;
+    height: 31px;
+    margin-left: 5px;
+    color: #dbdce0;
+}
+.myp2{
+    padding-top: 20px;
+}
+.myp3{
+    padding-top: 20px;
+}
+.myp4{
+    padding-top: 20px;
+}
+.myp5{
+    padding-top: 20px;
+}
+.myp6{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.myp7{
+    padding-top: 20px;
+}
+.myp3 input{
+    width: 284px;
+    height: 31px;
+    margin-left: 5px;
+    color: #dbdce0;
+}
+.myp6 input{
+    width: 284px;
+    height: 31px;
+    margin-left: 5px;
+    color: #dbdce0;
+}
+.myp7 input{
+    width: 284px;
+    height: 31px;
+    margin-left: 5px;
+    color: #dbdce0;
+}
+.myp4{
+   
+    padding-right: 220px;
+}
+.myp4 input{
+   margin-left: 5px;
+}
+.myp5{
+    padding-right: 220px;
+}
+.btn1{
+    margin-top: 20px;
+    padding: 3px 15px;
+}
+.btn2{
+    margin-left: 70px;
+    padding: 3px 15px;
+}
+

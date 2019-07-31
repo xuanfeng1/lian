@@ -1,0 +1,35 @@
+轮播图：
+https://www.swiper.com.cn/usage/index.html
+
+css框架：
+http://www.bootcss.com/
+
+17静态页下载地址
+http://www.17sucai.com
+
+html静态网页模板
+http://www.cssmoban.com/tags.asp?page=2&n=html5
+
+关键字：后台网页模板、响应式网页模板
+
+jquery插件库
+http://www.jq22.com/
+例如搜索：三级联动   轮播图   选项卡切换
+
+百度图表插件库
+https://echarts.baidu.com/download.html
+
+菜鸟教程
+http://www.runoob.com/
+
+廖雪峰官网
+https://www.liaoxuefeng.com
+
+前端框架
+https://www.bootcss.com/   官网
+https://v4.bootcss.com/docs/4.0/getting-started/introduction/  简介
+https://v3.bootcss.com/components/#thumbnails-custom-content   组件
+
+新型css框架
+https://less.bootcss.com/#-operations-   官网
+价值：做别人做不了的  Less  @   Sass $   

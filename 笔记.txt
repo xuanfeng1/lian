@@ -1,0 +1,31 @@
+文件扩展名：   .html   超文本标记语言    .txt记事本  .jpg图片    .png 图片   .gif动态图片  .ps原文件  .docx文档  .zip压缩包。。。。。。.java   .css   .js
+1:必须要有html的骨架      
+	1：html:xt+tab键
+	dtd  表示网页内文档书写必须要符合W3C的规则
+
+W3C表示一个组织   编程语言的  开发框架  对编程有贡献的      例如：世界峰会（主席）
+http://www.w3.org/1999/xhtml
+
+UTF-8   表示网页的编译码：国际码
+gb2312 表示国家码
+en  表示英文
+
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>
+
+<!--注释：不展示出来的内容-->
+<!--html超文本标记语言   head头部   meta引用  title标题   body身体-->
+<!--head头部里主要是设置网页的1：设置的是编码格式    2：标题-->
+<!--body身体里 放入的展示内容-->
+<!--语义：所有的标签都有语义  通常是为了一目了然的，也是为了给视力障碍的人事用的-->
+<!--所写内容一定要用标签包裹-->
+
+ctrl+c复制    ctrl+v粘贴  ctrl+x剪切  ctrl+z后退   ctrl+a全选   ctrl+s保存   ctrl+shift+表示加选   ctrl+d删除单行   delete删除一个

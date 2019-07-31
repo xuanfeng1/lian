@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Quan {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+/*右边大图*/
+
+.Quan .body_img img {
+    width: 60%;
+    height: 979px;
+    float: right;
+}
+
+/*第一部分*/
+
+.Quan .body_one img {
+    float: left;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+/*第二部分*/
+
+.Quan .body_two {
+    float: left;
+    margin-top: 110px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/*第三部分*/
+
+.Quan .body_three {
+    float: left;
+    margin-top: 190px;
+    margin-left: -10%;
+    font-size: 40px;
+}
+
+/*第四部分*/
+
+.Quan .body_four {
+    float: left;
+    border-bottom: 3px dashed #CCCCCC;
+    width: 500px;
+    height: 1px;
+    margin-top: 270px;
+    margin-left: -195px;
+}
+
+/*第五部分*/
+
+.Quan .body_five {
+    float: left;
+    margin-top: 320px;
+    margin-left: -495px;
+    font-size: 20px;
+}
+
+.Quan .body_five input {
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    /*去除input的蓝边*/
+    outline: none;
+    /*点击时变成手指头*/
+    cursor: pointer;
+    /*让字和左边框有距离*/
+    text-indent: 10px
+}
+
+/*第六部分*/
+
+.Quan .body_six {
+    float: left;
+    margin-top: 420px;
+    margin-left: -495px;
+    font-size: 20px;
+}
+
+.Quan .body_six input {
+    width: 400px;
+    height: 40px;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+    text-indent: 10px
+}
+
+/*第七部分*/
+
+.Quan .body_seven {
+    float: left;
+    margin-top: 500px;
+    margin-left: -495px;
+    font-size: 20px;
+}
+
+.Quan .body_seven a:nth-child(1) span {
+    font-size: 14px;
+    color: #000000;
+}
+
+.Quan .body_seven a:nth-child(2) span {
+    margin-left: 280px;
+    font-size: 14px;
+}
+
+.Quan .body_seven a {
+    text-decoration: none;
+}
+
+/*第八部分*/
+
+.Quan .body_eight {
+    float: left;
+    margin-top: 530px;
+    margin-left: -495px;
+    font-size: 20px;
+}
+
+.Quan .body_eight button {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    background: #2AB5E6;
+    color: #FFFFFF;
+    /*让button去掉边框线*/
+    border: none;
+    /*让点击时不出现蓝边*/
+    outline: none;
+    /*让点击时鼠标变成手指头*/
+    cursor: pointer;
+}
+
+.Quan .body_eight button:hover {
+    background: red;
+}
+
+/*第九部分*/
+
+.Quan .body_nine {
+    float: left;
+    margin-top: 630px;
+    margin-left: -495px;
+    font-size: 20px;
+}
+
+.Quan .body_nine .body_a {
+    float: left;
+    width: 150px;
+    height: 1px;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.Quan .body_nine .body_b {
+    float: left;
+    margin-top: -8px;
+    font-size: 14px;
+    color: #CCCCCC;
+}
+
+.Quan .body_nine .body_c {
+    float: left;
+    width: 150px;
+    height: 1px;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+/*第九部分*/
+
+.Quan .body_ten {
+    float: left;
+    margin-top: 680px;
+    margin-left: -495px;
+}
+
+.Quan .body_ten div:nth-child(1) {
+    margin-left: 35px;
+    float: left;
+}
+
+.Quan .body_ten div:nth-child(2) {
+    margin-left: 35px;
+    float: left;
+}
+
+.Quan .body_ten div:nth-child(3) {
+    margin-left: 35px;
+    float: left;
+}
+
+.Quan .body_ten div:nth-child(1) img {
+    width: 80px;
+    height: 80px;
+}
+
+.Quan .body_ten div:nth-child(2) img {
+    width: 80px;
+    height: 80px;
+}
+
+.Quan .body_ten div:nth-child(3) img {
+    width: 80px;
+    height: 80px;
+}
+
+/* 账号密码 */
+
+#tishi {
+    font-size: 5px;
+    color: #CCCCCC;
+}
+
+#zh {
+    font-size: 5px;
+    color: red;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#mm {
+    font-size: 5px;
+    color: red;
+    float: left;
+    margin-bottom: 10px;
+}
